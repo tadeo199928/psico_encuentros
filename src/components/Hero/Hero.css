@@ -1,0 +1,140 @@
+.hero-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: stretch;
+  justify-content: flex-start; 
+  min-height: auto; 
+  width: 100%;
+  background:#eafaf7;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-top: 0;
+  padding-top: -100px;
+}
+
+.hero-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-left,
+.hero-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-left {
+  align-items: flex-start;
+  background-color: #eafaf7;
+}
+
+.hero-left h1 {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+  color: #1a5f5f;
+  font-weight: 700;
+  line-height: 1.2;
+  padding-left: 10%;
+}
+
+.hero-left p {
+  font-size: 1.25rem;
+  color: #2d6a6a;
+  max-width:80%;
+  line-height: 1.6;
+  padding-left: 15%;
+}
+
+.hero-right {
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hero-bottom {
+  width: 100%;
+  background-color: #fcf8f0;
+  padding: 4rem 2rem;
+  text-align: center;
+  color: #1a5f5f;
+}
+
+.hero-bottom h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #1a5f5f;
+}
+
+.hero-bottom p {
+  font-size: 1.25rem;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #2d6a6a;
+}
+
+/* Responsive adjustments */
+@media (max-width: 920px) {
+  .hero-container {
+    min-height: auto;
+    padding-top: 130px; /* ensure content clears fixed navbar on mobile */
+    margin-top: 0;
+  
+  }
+
+  .hero-wrapper {
+    flex-direction: column;
+    padding-top: 0;
+  }
+
+  .hero-left {
+    padding: 3rem 2rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-left h1 {
+    font-size: 2.5rem;
+    padding-left: 0;
+  }
+
+    .hero-left p {
+    padding-left: 0;
+  }
+
+  .hero-right {
+    width: 100%;
+    min-height: 500px;
+  }
+
+  .hero-right img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero-bottom {
+    padding: 3rem 1.5rem;
+  }
+
+  .hero-bottom h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-bottom p {
+    font-size: 1.1rem;
+  }
+}

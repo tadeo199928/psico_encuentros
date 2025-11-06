@@ -1,82 +1,14 @@
+import Hero from "../components/Hero/Hero";
+import { FAQ } from "../components/Preguntas/Faq";
+import Preguntas from "../components/Preguntas/Preguntas";
+
 const Home = () => {
+  const faq = FAQ
   return (
-    <div className="">
-      <h1>Welcome to the Home Page</h1>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, maiores nisi nobis totam aspernatur quibusdam facilis. Nam possimus autem minima culpa officiis vel adipisci quasi ea voluptas consectetur! Magnam, et.</p>
-    </div>
+    <>
+      <Hero />
+      <Preguntas questions={faq} />
+    </>
   );
 };
 
