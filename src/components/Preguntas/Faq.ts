@@ -2,6 +2,8 @@ export interface FAQItem {
   question: string;
   answer: string;
   open: boolean;
+  btn_label?: string;
+  btn_href?: string;
 }
 
 export const FAQ: FAQItem[] = [
@@ -34,5 +36,13 @@ export const FAQ: FAQItem[] = [
     answer:
       "Sí, cuento con un espacio físico donde realizo las sesiones. Puedes agendar una consulta para visitarlo.",
     open: false,
+  },
+  {
+    question: "¿Como puedo contactarte?",
+    answer:
+      "Puedes contactarme a través del formulario de contacto o enviarme un mensaje directo.",
+    open: false,
+    btn_label: "Contactame",
+    btn_href: "/Contacto",
   },
 ];

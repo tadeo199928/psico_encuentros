@@ -1,13 +1,15 @@
 import { NavLink, useLocation } from "react-router-dom";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FaBars } from "react-icons/fa";
 import "./NavBar.css";
 
 const Header: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
+  useEffect(() => {
+    setMenuOpen(false);
+  }, [location.pathname]);
 
-  // Get page name based on current route
   const getPageName = () => {
     switch (location.pathname) {
       case "/":

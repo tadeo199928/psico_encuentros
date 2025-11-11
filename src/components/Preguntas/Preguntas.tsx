@@ -1,15 +1,21 @@
 import React from "react";
 import { IoAddSharp } from "react-icons/io5";
 import "./Preguntas.css";
+import type { FAQItem } from "./Faq";
+import { NavLink } from "react-router-dom";
 
 const FaqCard = ({
   question,
   answer,
   open,
+  btn_label,
+  btn_href,
 }: {
   question: string;
   answer: string;
   open: boolean;
+  btn_label?: string;
+  btn_href?: string;
 }) => {
   const [isOpen, setIsOpen] = React.useState(open);
 
@@ -19,16 +25,21 @@ const FaqCard = ({
         <h1>{question}</h1>
         <IoAddSharp />
       </div>
-      {isOpen && <p className="answers">{answer}</p>}
+      {isOpen && (
+        <>
+          <p className="answers">{answer}</p>
+          {btn_label && btn_href && (
+            <NavLink className="faq-btn" to={btn_href}>
+              {btn_label}
+            </NavLink>
+          )}
+        </>
+      )}
     </div>
   );
 };
 
-const Preguntas = ({
-  questions,
-}: {
-  questions: Array<{ question: string; answer: string; open: boolean }>;
-}) => {
+const Preguntas = ({ questions }: { questions: FAQItem[] }) => {
   return (
     <section className="faq-section">
       <div className="wrap-faq">
@@ -47,6 +58,8 @@ const Preguntas = ({
               question={item.question}
               answer={item.answer}
               open={item.open}
+              btn_label={item.btn_label}
+              btn_href={item.btn_href}
             />
           ))}
         </div>
