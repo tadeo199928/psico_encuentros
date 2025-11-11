@@ -1,6 +1,6 @@
 .faq-section {
   padding: 6rem 2rem;
-  background: #eafaf7;
+  background: #faf7e9;
   width: 100%;
   box-sizing: border-box;
 }
@@ -24,7 +24,7 @@
 
 .faq-left h1 {
   font-size: 3rem;
-  color: #1a5f5f;
+  color: #d46a6a;
   margin-bottom: 2rem;
   font-weight: 700;
   line-height: 1.2;
@@ -33,7 +33,7 @@
 
 .faq-left p {
   font-size: 1.1rem;
-  color: #2d6a6a;
+  color: #5C5A66;
   margin-bottom: 2rem;
   line-height: 1.6;
   padding-left: 4rem;
@@ -67,7 +67,7 @@
   cursor: pointer;
   width: 100%;
   box-sizing: border-box;
-  border: 1px solid rgba(26, 95, 95, 0.1);
+  border: 1px solid rgba(26, 95, 95, 0.6);
 }
 
 .fq-container:hover {

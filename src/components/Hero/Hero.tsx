@@ -7,10 +7,8 @@ const Hero: React.FC = () => {
         <div className="hero-left">
           <h1>Mi nombre es Giovanna</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ex
-            tempora necessitatibus animi mollitia accusamus voluptates ullam
-            possimus qui dolores? Et voluptas fugit officiis rem accusantium
-            suscipit illo quae optio.
+            Soy una Psicologa que te puede ayudar a entender mejor tus problemas,
+            trabajo con todo.
           </p>
         </div>
         <div className="hero-right">

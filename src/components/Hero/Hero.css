@@ -1,53 +1,43 @@
 .hero-container {
-  display: flex;
-  flex-direction: column; 
-  align-items: stretch;
-  justify-content: flex-start; 
-  min-height: auto; 
+  display: block;
+  align-content: start;
   width: 100%;
-  background:#eafaf7;
+  background: rgba(238, 228, 183, 0.3);
   position: relative;
   z-index: 1;
   overflow: hidden;
   box-sizing: border-box;
   margin-top: 0;
-  padding-top: -100px;
 }
 
 .hero-wrapper {
-  display: flex;
-  width: 100%;
-  height: 100%;
-}
-
-.hero-left,
-.hero-right {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin: 0;
 }
 
 .hero-left {
-  align-items: flex-start;
-  background-color: #eafaf7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0.75rem;
 }
 
 .hero-left h1 {
   font-size: 3.5rem;
   margin-bottom: 2rem;
-  color: #1a5f5f;
+  color: #d46a6a;
   font-weight: 700;
   line-height: 1.2;
-  padding-left: 10%;
 }
 
 .hero-left p {
   font-size: 1.25rem;
-  color: #2d6a6a;
-  max-width:80%;
+  color: #495366;
   line-height: 1.6;
-  padding-left: 15%;
 }
 
 .hero-right {
@@ -63,6 +53,7 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
+  display: block;
 }
 
 .hero-bottom {
@@ -70,41 +61,48 @@
   background-color: #fcf8f0;
   padding: 4rem 2rem;
   text-align: center;
-  color: #1a5f5f;
+  place-items: center;
+  border: 2px solid rgba(26, 95, 95, 0.15);
 }
 
 .hero-bottom h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
   font-weight: 600;
-  color: #1a5f5f;
+  color: #d46a6a;
 }
 
 .hero-bottom p {
   font-size: 1.25rem;
   max-width: 800px;
   margin: 0 auto;
-  color: #2d6a6a;
+  color: #495366;
 }
 
-/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .hero-container {
+    padding-top: 90px;
+  }
+}
+
 @media (max-width: 920px) {
   .hero-container {
     min-height: auto;
-    padding-top: 130px; /* ensure content clears fixed navbar on mobile */
+    padding-top: 130px;
     margin-top: 0;
-  
   }
 
   .hero-wrapper {
+    display: flex;
     flex-direction: column;
     padding-top: 0;
   }
 
   .hero-left {
+    display: flex;
+    flex-direction: column;
     padding: 3rem 2rem;
     align-items: center;
-    text-align: center;
   }
 
   .hero-left h1 {
@@ -112,7 +110,7 @@
     padding-left: 0;
   }
 
-    .hero-left p {
+  .hero-left p {
     padding-left: 0;
   }
 
