@@ -1,8 +1,11 @@
+import { content } from "../components/Publicaciones/Content";
+import Posts from "../components/Publicaciones/Publicaciones";
+
 const Post = () => {
   return (
-    <div className="">
-      <h1>Welcome to the Post Page</h1>
-    </div>
+    <>
+      <Posts posts={content}/>
+    </>
   );
 };
 

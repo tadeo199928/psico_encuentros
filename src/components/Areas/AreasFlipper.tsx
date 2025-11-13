@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 import type { AreasContent } from "./Areas";
-import "./SobreMi.css";
+import "./AreasFlipper.css";
 
 interface AreasFlipperProps {
   areas: AreasContent[];

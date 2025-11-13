@@ -5,10 +5,9 @@ const AboutSection = () => {
   return (
     <>
       <motion.div
-        initial={{ opacity: 0, x: -100 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.6 }}
-        viewport={{ once: true, amount: 0.3 }}
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
         className="about-section"
       >
         <h2 className="about-section-title">Mi Historia</h2>
@@ -21,18 +20,16 @@ const AboutSection = () => {
       </motion.div>
 
       <motion.div
-        initial={{ opacity: 0, x: 100 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.6 }}
-        viewport={{ once: true, amount: 0.3 }}
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
         className="about-section"
       >
-        <h2 className="about-section-title">Mi Enfoque</h2>
+        <h2 className="about-section-title">Mi Metodo de Trabajo</h2>
         <p className="about-section-text">
-          Creo en un abordaje holístico e integrador, combinando diferentes
-          técnicas terapéuticas adaptadas a las necesidades únicas de cada
-          paciente. Mi objetivo es crear un espacio seguro donde puedas
-          explorar, sanar y crecer.
+          Nada mas efectivo que una buena lavada de cerebro, especializada en
+          electrocutar tu cerebro para limpiar el brainrod totalmente, y que
+          dejes de ver tiktok todo el dia
         </p>
       </motion.div>
     </>
