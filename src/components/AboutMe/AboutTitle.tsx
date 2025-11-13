@@ -13,6 +13,7 @@ const AboutHeader = () => {
           <h1 className="about-title">
             Sobre Mí
           </h1>
+          <img src="https://expertosenmarca.com/wp-content/uploads/2023/08/0_1-24.png" alt="Sobre Mí"/>
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

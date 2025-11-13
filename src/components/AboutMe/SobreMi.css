@@ -26,6 +26,14 @@
   margin-bottom: 1rem;
 }
 
+.about-header img {
+  width: 200px;
+  height: 200px;
+  margin: 1rem auto;
+  border-radius: 9999px;
+  display: block;
+}
+
 .about-subtitle {
   color: #495366;
   font-size: 1.25rem;
