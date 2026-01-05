@@ -7,34 +7,40 @@ export interface FAQItem {
 }
 
 export const FAQ: FAQItem[] = [
-  {
-    question: "¿Cómo puedo saber si voy a conectar contigo?",
-    answer:
-      "Los precios varían según el tipo de terapia y la duración de las sesiones. Ofrezco diferentes opciones para adaptarme a tu presupuesto.",
-    open: false,
-  },
-  {
-    question: "¿Trabajas con seguros?",
-    answer:
-      "Algunos seguros cubren la terapia online. Te recomiendo verificar con tu proveedor de seguros sobre la cobertura específica.",
-    open: false,
-  },
-  {
-    question: "¿Es efectiva la terapia online?",
-    answer:
-      "Sí, múltiples estudios han demostrado que la terapia online es tan efectiva como la terapia presencial para muchas condiciones de salud mental.",
-    open: false,
-  },
-  {
-    question: "¿Cómo me conecto con un terapeuta?",
-    answer:
-      "Puedes contactarme a través del formulario de contacto o agendar una consulta inicial gratuita para conocernos y discutir tus necesidades.",
-    open: false,
-  },
-  {
+    {
     question: "¿Tienes espacio físico?",
     answer:
-      "Sí, cuento con un espacio físico donde realizo las sesiones. Puedes agendar una consulta para visitarlo.",
+      "Sí, cuento con un espacio físico donde realizo las sesiones Ubicado en Caracas. Puedes agendar una consulta para visitarlo.",
+    open: false,
+  },
+  {
+    question: "¿Que se hace en una primera consulta psicológica?",
+    answer:
+      "En la primera consulta psicológica se realiza una evaluación inicial para entender tus necesidades, establecer objetivos y planificar el tratamiento adecuado.",
+    open: false,
+  },
+  {
+    question: "¿En qué consiste un proceso de psicoterapia y que puedes esperar al  llevarlo a cabo conmigo?",
+    answer:
+      "Sí, la psicoterapia es un proceso colaborativo donde trabajamos juntos para explorar tus pensamientos, emociones y comportamientos. Puedes esperar un espacio seguro y de apoyo para abordar tus desafíos y promover el crecimiento personal.",
+    open: false,
+  },
+  {
+    question: "¿Existen normas dentro de la consulta?",
+    answer:
+      "Sí, existen normas como la confidencialidad, el respeto mutuo y la puntualidad para asegurar un ambiente terapéutico efectivo.",
+    open: false,
+  },
+    {
+    question: "¿Cual es la diferencia entre una consulta online o presencial?",
+    answer:
+      "La consulta online ofrece comodidad y accesibilidad desde cualquier lugar, mientras que la consulta presencial permite una interacción cara a cara en un espacio físico. Ambas modalidades son efectivas y se adaptan a tus necesidades.",
+    open: false,
+  },
+      {
+    question: "¿Cómo llevar a cabo la consulta online?",
+    answer:
+      "Para la consulta online, necesitaremos una conexión estable a internet y un dispositivo con cámara y micrófono. Utilizaremos plataformas seguras para garantizar la privacidad durante nuestras sesiones.",
     open: false,
   },
   {

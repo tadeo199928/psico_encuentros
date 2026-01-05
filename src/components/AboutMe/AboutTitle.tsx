@@ -11,18 +11,9 @@ const AboutHeader = () => {
           className="about-header"
         >
           <h1 className="about-title">
-            Sobre Mí
+            Giovanna Bennici
           </h1>
-          <img src="https://expertosenmarca.com/wp-content/uploads/2023/08/0_1-24.png" alt="Sobre Mí"/>
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.3, duration: 0.8 }}
-            className="about-subtitle"
-          >
-            Psicólogo clínico con más de 10 años de experiencia ayudando a personas
-            a superar sus desafíos emocionales y alcanzar su bienestar mental.
-          </motion.p>
+          <img src="Gio2.png" alt="Sobre Mí"/>
         </motion.div>
   )
 };

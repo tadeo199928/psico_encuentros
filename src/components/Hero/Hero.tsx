@@ -13,8 +13,8 @@ const Hero: React.FC = () => {
         </div>
         <div className="hero-right">
           <img
-            src="https://expertosenmarca.com/wp-content/uploads/2023/08/0_1-24.png"
-            alt="Description of image"
+            src="Gio1.jpeg"
+            alt="Giovanna Bennici"
           />
         </div>
       </div>
