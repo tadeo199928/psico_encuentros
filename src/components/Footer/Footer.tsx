@@ -2,7 +2,6 @@ import React from "react";
 import "./Footer.css";
 import {
   FaInstagramSquare,
-  FaLinkedin,
   FaEnvelope,
   FaFacebook,
   FaWhatsapp,
