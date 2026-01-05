@@ -4,6 +4,8 @@ export interface FAQItem {
   open: boolean;
   btn_label?: string;
   btn_href?: string;
+  btn_label2?: string;
+  btn_href2?: string;
 }
 
 export const FAQ: FAQItem[] = [
@@ -48,7 +50,9 @@ export const FAQ: FAQItem[] = [
     answer:
       "Puedes contactarme a través del formulario de contacto o enviarme un mensaje directo.",
     open: false,
-    btn_label: "Contactame",
+    btn_label: "Contactame Via Email",
     btn_href: "/Contacto",
+    btn_label2: "Contactame Via Whatsapp",
+    btn_href2: "https://wa.me/584241821096?text=Hola%2C%20quisiera%20agendar%20una%20cita.",
   },
 ];

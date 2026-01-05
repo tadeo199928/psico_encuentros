@@ -10,14 +10,23 @@ const FaqCard = ({
   open,
   btn_label,
   btn_href,
+  btn_label2,
+  btn_href2,
 }: {
   question: string;
   answer: string;
   open: boolean;
   btn_label?: string;
   btn_href?: string;
+  btn_label2?: string;
+  btn_href2?: string;
 }) => {
   const [isOpen, setIsOpen] = React.useState(open);
+
+  const isExternal = (href: string) =>
+    href.startsWith("http") ||
+    href.startsWith("https") ||
+    href.startsWith("wa.me");
 
   return (
     <div className={`fq-container ${isOpen ? "open" : ""}`}>
@@ -33,6 +42,23 @@ const FaqCard = ({
               {btn_label}
             </NavLink>
           )}
+
+          {btn_label2 &&
+            btn_href2 &&
+            (isExternal(btn_href2) ? (
+              <a
+                className="faq-btn"
+                href={btn_href2}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {btn_label2}
+              </a>
+            ) : (
+              <NavLink className="faq-btn" to={btn_href2}>
+                {btn_label2}
+              </NavLink>
+            ))}
         </>
       )}
     </div>
@@ -60,6 +86,8 @@ const Preguntas = ({ questions }: { questions: FAQItem[] }) => {
               open={item.open}
               btn_label={item.btn_label}
               btn_href={item.btn_href}
+              btn_label2={item.btn_label2}
+              btn_href2={item.btn_href2}
             />
           ))}
         </div>
