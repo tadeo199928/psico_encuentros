@@ -23,34 +23,35 @@ const AboutSection = () => {
 
           <p>
             Como suele ocurrir en muchas historias, sentí que tenía un mar de
-            conocimientos pero un un centímetro de profundidad, razón por la
+            conocimientos pero con un centímetro de profundidad, razón por la
             cual decidí no quedarme con mi formación inicial de corte humanista,
             sino que explore diferentes enfoques que me complementaran hasta
-            poder definir mi propio camino. Es así como comencé trabajando en
+            poder definir mi propio camino, es así como comencé trabajando en
             diversos planteles educativos con niños y adolescentes acompañando
-            procesos de elección vocacional y dificultades educativas hasta
+            procesos de elección vocacional y dificultades educativas, hasta
             luego emerger en lo me dedico actualmente desde hace aproximadamente
             11 años que es el área clínica.
           </p>
 
           <p>
-            Es así como en paralelo trabajando en colegios y en un ambulatorio
-            también lleve a cabo mi consulta privada, cabe destacar que esto
-            último desde que me gradué y llevando a cabo la supervisión de mi
-            casos pertinentes, todo esto con un profunda motivación de continuar
-            mis formaciones mediante diversos diplomados, certificaciones,
-            componente docente y actualmente el máster en terapias de tercera
-            generación que me encuentro próxima a culminar. Para mí el ser
-            humano no se puede fragmentar, tenemos una historia que puede
-            incidir en como actuamos mas no tiene que ser un determinante...
+            En ese mismo sentido trabaje en paralelo en colegios y en un
+            ambulatorio, llevando a cabo mi consulta privada, cabe destacar que
+            esto último desde que me gradué y bajo supervisión de mi casos
+            pertinentes, todo esto con un profunda motivación de continuar mis
+            formaciones mediante diversos diplomados, certificaciones,
+            componente docente y actualmente el{" "}
+            <strong>Máster en Terapias de Tercera Generación</strong> que me
+            encuentro próxima a culminar. Para mí el ser humano no se puede
+            fragmentar, tenemos una historia que puede incidir en como actuamos
+            mas no tiene que ser un determinante...
           </p>
 
           <p>
-            Es así como actualmente me dedico a trabajar con adultos y
-            adolescentes, en temas principalmente de duelos ansiedad y
-            depresión, así como dificultades para establecer límites y
-            crecimiento personal...
+            Actualmente me dedico a trabajar con adultos y adolescentes, en
+            temas principalmente de duelos, ansiedad y depresión, así como
+            dificultades para establecer límites y crecimiento personal...
           </p>
+          <p> <strong>Licda Giovanna Bennici - FPV 6582</strong></p>
         </div>
       </motion.div>
     </>

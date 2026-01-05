@@ -70,12 +70,8 @@ const Preguntas = ({ questions }: { questions: FAQItem[] }) => {
     <section className="faq-section">
       <div className="wrap-faq">
         <div className="faq-left">
-          <h1>¿Alguna pregunta?</h1>
-          <img src="/questions.png" alt="Ilustración de preguntas" />
-          <p>
-            "No hay preguntas tontas, solo respuestas que esperan ser
-            descubiertas."
-          </p>
+          <h1>Dudas frecuentes acerca de la terapia psicológica</h1>
+          <img src="/psico.png" alt="Ilustración de preguntas" />
         </div>
         <div className="preguntas-respuestas">
           {questions.map((item, index) => (

@@ -5,6 +5,9 @@ import {
   FaLinkedin,
   FaEnvelope,
   FaFacebook,
+  FaWhatsapp,
+  FaTiktok
+  
 } from "react-icons/fa";
 
 const Footer: React.FC = () => {
@@ -23,9 +26,13 @@ const Footer: React.FC = () => {
             <FaFacebook />
             <span>Facebook</span>
           </a>
-          <a href="#" target="_blank" rel="LinkedIn" className="footer-link">
-            <FaLinkedin />
-            <span>LinkedIn</span>
+          <a href="#" target="_blank" rel="Whatsapp" className="footer-link">
+            <FaWhatsapp />
+            <span>Whatsapp</span>
+          </a>
+          <a href="#" target="_blank" rel="Tiktok" className="footer-link">
+            <FaTiktok />
+            <span>Tiktok</span>
           </a>
           <a href="#" className="footer-link">
             <FaEnvelope />

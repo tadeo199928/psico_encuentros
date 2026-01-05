@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const Posts = ({ posts }: { posts: Post[] }) => {
   return (
     <section className="publicaciones-section">
-      <h1>Publicaciones de Interes Relacionadas a mi trabajo</h1>
+      <h1>Capsula Informativa</h1>
       {[...posts]
         .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
         .map((post) => (

@@ -12,7 +12,7 @@ export const Areas: AreasContent[] = [
       "Técnicas basadas en evidencia para modificar patrones de pensamiento negativos",
   },
   {
-    title: "Coñazo Terapia",
+    title: "Terapia de acep",
     icon: "🥊",
     description: "Técnicas de coñazos",
   },

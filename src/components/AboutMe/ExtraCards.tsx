@@ -46,8 +46,9 @@ const ExtraCards = () => {
           el día y hora pautada.
           <br />
           <br />
-          <strong>Importante tener en cuenta</strong>
+          <strong>⚠️ Importante tener en cuenta:</strong>
           <br />
+           <br />
           - Solo se atiende con cita previa.
           <br />
           - El horario de atención es de lunes a viernes de 8 a.m. a 6 p.m. Hora
@@ -55,7 +56,10 @@ const ExtraCards = () => {
           <br />
           - En caso de necesitar posponer tu cita, deberás hacerlo con 24 horas
           de anticipación.
-          <br />- Ante cualquier duda o inquietud sobre el proceso, consulta
+          <br />
+          -Se agradece que antes de iniciar la consulta, se envie una prueba de pago con sus datos personales.
+                    <br />
+          - Ante cualquier duda o inquietud sobre el proceso, consulta
           directamente conmigo a través del mismo medio.
         </p>
       </motion.div>
