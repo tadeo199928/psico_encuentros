@@ -1,15 +1,19 @@
 import ContactCard from "../components/ContactCard/ContactCard";
 import ContactForm from "../components/Email/ContactEmail";
+import ExtraInfoCard from "../components/ContactCard/ExtraInfoCard";
 import { FaWhatsapp, FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 
 const Contacto = () => (
   <div className="background">
+
+    <ExtraInfoCard />
     <div className="contact-cards">
       <ContactCard
         plataforma="Whatsapp"
         Icon={FaWhatsapp}
         description="Mi número de WhatsApp es:"
-        number="123-5569889"
+        btnRef="https://wa.me/584241821096?text=Hola%2C%20quisiera%20agendar%20una%20cita."
+        btnLabel="WhatsApp"
       />
       <ContactCard
         plataforma="Facebook"

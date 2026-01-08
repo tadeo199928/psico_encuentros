@@ -37,7 +37,8 @@
   font-size: 1.2rem;
   color: #495366;
   line-height: 1.6;
-  padding-left: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
   text-align: center;
 }
 
@@ -109,10 +110,6 @@
 
   .hero-left h1 {
     font-size: 2.5rem;
-    padding-left: 0;
-  }
-
-  .hero-left p {
     padding-left: 0;
   }
 

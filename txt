@@ -1,10 +1,4 @@
-Imagen de inicio:
 
-Cambiar por el logo
-
-
-
-Cambiar el texto de P del hero section
 
 
 Cambiar Cuadritos
@@ -18,5 +12,7 @@ Acomodar links del footer
 copiar como agendar a las preguntas 
 
 
-
 Editar las publicaciones 
+
+
+Revisar link de whatsapp

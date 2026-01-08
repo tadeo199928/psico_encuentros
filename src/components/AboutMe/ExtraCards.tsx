@@ -13,16 +13,16 @@ const ExtraCards = () => {
         <p className="info-card-text">
           Licenciado en Psicología - Universidad Nacional
           <br />
-           <br />
+          <br />
           Maestría en Psicología Clínica
           <br />
-           <br />
+          <br />
           Certificaciones en TCC y Mindfulness
           <br />
-           <br />
+          <br />
           Certificaciones gestion
           <br />
-           <br />
+          <br />
           Certificaciones en Psicoterapia
         </p>
       </motion.div>
@@ -32,11 +32,13 @@ const ExtraCards = () => {
         whileTap={{ scale: 0.95 }}
         className="info-card"
       >
-        <h3 className="info-card-title">📖 Como puedo Agendar Una Cita</h3>
+        <h3 className="info-card-title">Me interesa lo que estoy viendo...</h3>
+        <h3 className="info-card-title"> 📖¿Como puedo Agendar Una Cita?</h3>
         <p className="info-card-text">
-          1. Puedes escribir un correo con el formulario de la web o mensajería directa al siguiente link (solo WhatsApp):   
+          1. Puedes escribir un correo con el formulario de la web o mensajería
+          directa al siguiente link (solo WhatsApp):
           <a href="https://wa.me/584241821096?text=Hola%2C%20quisiera%20agendar%20una%20cita.">
-               Agenda tu cita aquí.
+            Agenda tu cita aquí.
           </a>
           <br />
           2. Se te proporcionará toda la información relacionada con horarios,
@@ -48,7 +50,7 @@ const ExtraCards = () => {
           <br />
           <strong>⚠️ Importante tener en cuenta:</strong>
           <br />
-           <br />
+          <br />
           - Solo se atiende con cita previa.
           <br />
           - El horario de atención es de lunes a viernes de 8 a.m. a 6 p.m. Hora
@@ -57,9 +59,9 @@ const ExtraCards = () => {
           - En caso de necesitar posponer tu cita, deberás hacerlo con 24 horas
           de anticipación.
           <br />
-          -Se agradece que antes de iniciar la consulta, se envie una prueba de pago con sus datos personales.
-                    <br />
-          - Ante cualquier duda o inquietud sobre el proceso, consulta
+          - Se agradece que antes de iniciar la consulta, se envie una prueba de
+          pago con sus datos personales.
+          <br />- Ante cualquier duda o inquietud sobre el proceso, consulta
           directamente conmigo a través del mismo medio.
         </p>
       </motion.div>
