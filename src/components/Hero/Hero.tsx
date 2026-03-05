@@ -7,9 +7,9 @@ const Hero: React.FC = () => {
         <div className="hero-left">
           <h1>Mi nombre es Giovanna</h1>
           <p>
-            Soy psicólogo. Te ofrezco un espacio donde darle sentido a tu
+            Soy psicóloga. Te ofrezco un espacio donde darle sentido a tu
             historia y buscar mecanismos que no necesariamente te harán feliz, 
-            pero sí te si te haran sentir en bienestar.
+            pero sí te harán sentir en bienestar.
           </p>
         </div>
         <div className="hero-right">
