@@ -7,7 +7,7 @@
 
 .wrap-faq {
   display: flex;
-  max-width: 1400px;
+  max-width: 1600px;
   width: 100%;
   margin: 0 auto;
   gap: 4rem;
@@ -32,19 +32,11 @@
 
 }
 
-.faq-left p {
-  font-size: 1.1rem;
-  color: #5c5a66;
-  margin-bottom: 2rem;
-  line-height: 1.6;
-  padding-left: 4rem;
-  padding-top: 1rem;
-}
 
 .faq-left img {
   max-width: 100%;
   width: 100%;
-  max-height: 700px;
+  max-height: 900px;
   max-width: auto;
   border-radius: 100%;
 }
@@ -108,7 +100,7 @@
   padding-top: 1rem;
   border-top: 1px solid rgba(26, 95, 95, 0.15);
   color: #2d6a6a;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.6;
   animation: fadeIn 0.3s ease;
 }
