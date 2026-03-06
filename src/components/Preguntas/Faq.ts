@@ -24,7 +24,7 @@ export const FAQ: FAQItem[] = [
   {
     question: "¿Existen normas dentro de la consulta?",
     answer:
-      "Sí, para garantizar que el proceso sea efectivo es importante cumplir con tu compromiso terapéutico donde es importante la constancia a tus sesiones ya previamente establecidas y acordadas, asistir dentro de la hora y en caso de no poder acudir a tu consulta avisar con un mínimo de 24 horas de antelación para la cancelación de la misma y así evitar consecuencias negativas, excepto en caso de temas de salud.",
+      "Sí, para garantizar que el proceso sea efectivo es importante cumplir con tu compromiso terapéutico donde es importante la constancia a tus sesiones ya previamente establecidas y acordadas, asistir dentro de la hora y en caso de no poder acudir a tu consulta avisar con un mínimo de 24 horas de antelación para la cancelación de la misma y así evitar consecuencias negativas.",
     open: false,
   },
   {
