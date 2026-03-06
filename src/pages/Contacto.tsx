@@ -11,7 +11,7 @@ const Contacto = () => (
       <ContactCard
         plataforma="Whatsapp"
         Icon={FaWhatsapp}
-        description="Mi número de WhatsApp es:"
+        description="Mi número de WhatsApp es: +584241821096"
         btnRef="https://wa.me/584241821096?text=Hola%2C%20quisiera%20agendar%20una%20cita."
         btnLabel="WhatsApp"
       />

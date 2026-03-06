@@ -50,6 +50,7 @@
   font-size: 2rem;
   color: #1a5f5f;
   background: rgba(26, 95, 95, 0.08);
+  border-radius: 999px;
 }
 
 .contact-btn {

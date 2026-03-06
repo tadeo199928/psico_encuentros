@@ -106,16 +106,15 @@
 
 .info-card-title {
   color: #d46a6a;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
 .info-card-text {
   color: #495366;
-  font-weight: 600;
-  line-height: 1.6;
+  font-size: 1.3rem;
 }
 
 .info-card-text a {

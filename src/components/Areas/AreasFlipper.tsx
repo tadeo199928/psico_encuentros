@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import type { AreasContent } from "./Areas";
 import "./AreasFlipper.css";
-
+import { PiMouseLeftClick } from "react-icons/pi";
 
 interface AreasFlipperProps {
   areas: AreasContent[];
@@ -35,6 +35,7 @@ const AreasFlipper = ({ areas }: AreasFlipperProps) => {
             key={index}
             initial={{ opacity: 0, scale: 0.5 }}
             whileInView={{ opacity: 1, scale: 1 }}
+            whileHover={{ scale: 1.06 }}
             transition={{ delay: index * 0.1, duration: 0.5 }}
             viewport={{ once: true }}
             className={`skill-card ${area.tag ? area.tag : ""}`}
@@ -49,10 +50,13 @@ const AreasFlipper = ({ areas }: AreasFlipperProps) => {
               <div className="skill-card-front">
                 <div className="skill-icon">{area.icon}</div>
                 <h3 className="skill-title">{area.title}</h3>
-                <p className="skill-hint">Click para más info</p>
+                <p className="skill-hint">
+                  Click para más info <PiMouseLeftClick />
+                </p>
               </div>
 
               <div className="skill-card-back">
+                <h3 className="skill-back-title">{area.title}:</h3>
                 <p className="skill-description">{area.description}</p>
               </div>
             </motion.div>

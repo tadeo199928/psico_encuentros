@@ -10,6 +10,7 @@
 }
 
 .extra-card-title {
+  font-size: 2rem;
   margin-bottom: 1rem;
   display: flex;
   justify-content: center;
@@ -17,8 +18,12 @@
   color: #d46a6a;
 }
 
-.extra-card-description a{
+.extra-card-description{
+  font-size: 1.3rem;
+  text-align: justify;
+}
 
-      text-decoration: none;
+.extra-card-description a {
+  text-decoration: none;
   color: #d46d6c;
 }

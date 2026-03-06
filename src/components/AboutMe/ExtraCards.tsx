@@ -32,8 +32,11 @@ const ExtraCards = () => {
         whileTap={{ scale: 0.95 }}
         className="info-card"
       >
-        <h3 className="info-card-title">Me interesa lo que estoy viendo...</h3>
-        <h3 className="info-card-title"> 📖¿Como puedo Agendar Una Cita?</h3>
+        <h3 className="info-card-title">
+          Me interesa lo que estoy viendo...¿Como puedo Agendar Una Cita?
+          📖{" "}
+        </h3>
+
         <p className="info-card-text">
           1. Puedes escribir un correo con el formulario de la web o mensajería
           directa al siguiente link (solo WhatsApp):
