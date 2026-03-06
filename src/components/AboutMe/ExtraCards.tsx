@@ -11,19 +11,19 @@ const ExtraCards = () => {
       >
         <h3 className="info-card-title">📚 Formación en el Area</h3>
         <p className="info-card-text">
-          Licenciado en Psicología - Universidad Nacional
+          Licenciado en Psicología - Universidad Central de Venezuela (UCV) | <a href="#/">Mostrar Certificado</a>
           <br />
           <br />
-          Maestría en Psicología Clínica
+          Maestría en Psicología Clínica | <a href="#/">Mostrar Certificado</a>
           <br />
           <br />
-          Certificaciones en TCC y Mindfulness
+          Certificaciones en TCC y Mindfulness | <a href="#/">Mostrar Certificado</a>
           <br />
           <br />
-          Certificaciones gestion
+          Certificaciones gestion | <a href="#/">Mostrar Certificado</a>
           <br />
           <br />
-          Certificaciones en Psicoterapia
+          Certificaciones en Psicoterapia | <a href="#/">Mostrar Certificado</a>
         </p>
       </motion.div>
 
