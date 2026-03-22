@@ -10,9 +10,9 @@ export interface FAQItem {
 
 export const FAQ: FAQItem[] = [
   {
-    question: "¿Tienes espacio físico?",
+    question: "¿Cómo sé si realmente necesito ir a terapia?",
     answer:
-      "Sí. Cuento con dos espacios físicos donde realizo las sesiones, ubicados en San Antonio de los Altos y Los Teques respectivamente, en los Altos Mirandinos.",
+      "No es necesario estar en crisis para ir al psicólogo. Afortunadamente hemos avanzado en conocimiento en salud mental y no todas las personas que incluso van a terapia tienen que tener algún trastorno mental o patología. Si has intentado resolver circunstancias por tu cuenta y sin encontrar solución o tu propio camino, mereces darte la oportunidad de buscar alguna estrategia diferente como por ejemplo, el acompañamiento psicológico de un profesional especializado. Cuando sientes que estás atravesando dificultades para gestionar tus emociones, cambios importantes o si simplemente deseas un espacio de autoconocimiento para mejorar tu bienestar personal, puedes asistir a terapia.",
     open: false,
   },
   {
@@ -24,23 +24,19 @@ export const FAQ: FAQItem[] = [
   {
     question: "¿Existen normas dentro de la consulta?",
     answer:
-      "Sí, para garantizar que el proceso sea efectivo es importante cumplir con tu compromiso terapéutico donde es importante la constancia a tus sesiones ya previamente establecidas y acordadas, asistir dentro de la hora y en caso de no poder acudir a tu consulta avisar con un mínimo de 24 horas de antelación para la cancelación de la misma y así evitar consecuencias negativas.",
-    open: false,
-  },
-  {
-    question: "¿Cómo sé si realmente necesito ir a terapia?",
-    answer:
-      "No es necesario estar en crisis para ir al psicólogo. Afortunadamente hemos avanzado en conocimiento en salud mental y no todas las personas que incluso van a terapia tienen que tener algún trastorno mental o patología, situaciones en las cuales has intentado resolver circunstancias solo y sin encontrar solución o tu propio camino, merecen la oportunidad de buscar alguna estrategia diferente como por ejemplo, el acompañamiento psicológico de un profesional especializado. Cuando sientes que estás atravesando dificultades para gestionar tus emociones, cambios importantes o si simplemente deseas un espacio de autoconocimiento para mejorar tu bienestar personal puedes asistir a terapia.",
+      "Sí, para garantizar que el proceso sea efectivo es importante cumplir con tu compromiso terapéutico donde es importante la constancia en tus sesiones ya previamente establecidas y acordadas, asistir dentro de la hora y en caso de no poder acudir a tu consulta avisar con un mínimo de 24 horas de antelación para la cancelación de la misma y así evitar consecuencias negativas.",
     open: false,
   },
   {
     question: "¿Cuánto dura el proceso y con qué frecuencia nos veremos?",
-    answer: "El tiempo total depende de tus objetivos y necesidades específicas. Una vez que se establece el plan terapéutico es importante mantener la continuidad para poder profundizar en los temas y observar los avances de manera sostenida, el trabajo no es solo responsabilidad del terapeuta, es un trabajo en equipo y lo que hagas suma en tus avances.",
+    answer:
+      "El tiempo total depende de los objetivos terapéuticos y tus necesidades específicas. Generalmente las sesiones se establecen de forma semanal, siempre el mismo día y a la misma hora, de manera tal de que ambos nos podamos comprometer y que el proceso psicoterapéutico forme parte de nuestra rutina. Una vez que se establece el plan terapéutico es importante mantener la continuidad para poder profundizar en los temas y observar los avances de manera sostenida, el trabajo no es solo responsabilidad del terapeuta, es un trabajo en equipo y lo que hagas suma en tus avances. No obstante, cada caso es particular y dependiendo de las circunstancias se hacen los ajustes que favorezcan la debida intervención.",
     open: false,
   },
-    {
+  {
     question: "¿Qué es más efectivo, la terapia online o la presencial?",
-    answer: "La evidencia científica nos dice que la efectividad no depende del medio, sino de la calidad de nuestra relación terapéutica y de tu compromiso con el proceso. Por un lado la terapia presencial te da la oportunidad de cambiar de entorno, mientras que la terapia online aporta flexibilidad y comodidad. Es importante valorar el contexto y realidad de vida de cada paciente para lograr encontrar el formato que mejor se adapte a ti y así puedas mantener la constancia de tus sesiones sin interrupciones.",
+    answer:
+      "La evidencia científica nos dice que la efectividad no depende del medio, sino de la calidad de nuestra relación terapéutica y de tu compromiso con el proceso. Por un lado la terapia presencial te da la oportunidad de cambiar de entorno, mientras que la terapia online aporta flexibilidad y comodidad. Es importante valorar el contexto y realidad de vida de cada paciente para lograr encontrar el formato que mejor se adapte a ti y así puedas mantener la constancia de tus sesiones sin interrupciones.",
     open: false,
   },
   {
@@ -49,6 +45,13 @@ export const FAQ: FAQItem[] = [
       "Para la consulta online, necesitaremos una conexión estable a internet y un dispositivo con cámara y micrófono. Utilizaremos plataformas seguras para garantizar la privacidad durante nuestras sesiones.",
     open: false,
   },
+  {
+    question: "¿Tienes espacio físico?",
+    answer:
+      "Sí. Cuento con dos espacios físicos donde realizo las sesiones, ubicados en San Antonio de los Altos y Los Teques respectivamente, en los Altos Mirandinos.",
+    open: false,
+  },
+
   {
     question: "¿Cómo puedo contactarte?",
     answer:

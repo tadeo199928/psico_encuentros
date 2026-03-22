@@ -1,37 +1,49 @@
-import { motion } from "framer-motion";
 import "./SobreMi.css";
 
 const ExtraCards = () => {
   return (
     <div className="info-cards">
-      <motion.div
-        whileHover={{ scale: 1.05, rotate: 1 }}
-        whileTap={{ scale: 0.95 }}
-        className="info-card"
-      >
+      <div className="info-card purple">
         <h3 className="info-card-title">📚 Formación en el Area</h3>
-        <p className="info-card-text">
-          Licenciado en Psicología - Universidad Central de Venezuela (UCV) | <a href="#/">Mostrar Certificado</a>
-          <br />
-          <br />
-          Maestría en Psicología Clínica | <a href="#/">Mostrar Certificado</a>
-          <br />
-          <br />
-          Certificaciones en TCC y Mindfulness | <a href="#/">Mostrar Certificado</a>
-          <br />
-          <br />
-          Certificaciones gestion | <a href="#/">Mostrar Certificado</a>
-          <br />
-          <br />
-          Certificaciones en Psicoterapia | <a href="#/">Mostrar Certificado</a>
-        </p>
-      </motion.div>
-
-      <motion.div
-        whileHover={{ scale: 1.05, rotate: -1 }}
-        whileTap={{ scale: 0.95 }}
-        className="info-card"
-      >
+        <div className="info-card-text">
+          <p>
+            Licenciado en Psicología - Universidad Central de Venezuela (UCV) |{" "}
+            <a href="#/">Mostrar Certificado</a>
+          </p>
+          <p>
+            Técnicas Psicoterapéuticas Para El Abordaje De La Depresión |{" "}
+            <a
+              href="https://drive.google.com/file/d/1KxawyaIoVztEPV2DPIKBgLYMAXdiNvka/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Mostrar Certificado
+            </a>
+          </p>
+          <p>
+            Diplomado Internacional en Abordaje Psicológico de la Depresión y
+            Ansiedad, Enfoque Cognitivo Conductual |{" "}
+            <a
+              href="https://drive.google.com/file/d/1XrDkSG0DZ7e4qCMNwLgCpiOOIuGOJhB2/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Mostrar Certificado
+            </a>
+          </p>
+          <p>
+            Seminario Internacional “Trastornos Ansiosos Depresivos” |{" "}
+            <a
+              href="https://drive.google.com/file/d/18-W1sWvF-cNSMfAfWTOuzunO0VbEueAJ/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Mostrar Certificado
+            </a>
+          </p>
+        </div>
+      </div>
+      <div className="info-card">
         <h3 className="info-card-title">
           Me interesa lo que estoy viendo...¿Como puedo Agendar Una Cita?
           📖{" "}
@@ -39,21 +51,17 @@ const ExtraCards = () => {
 
         <p className="info-card-text">
           1. Puedes escribir un correo con el formulario de la web o mensajería
-          directa al siguiente link (solo WhatsApp):
+          directa al siguiente link (solo WhatsApp):{" "}
           <a href="https://wa.me/584241821096?text=Hola%2C%20quisiera%20agendar%20una%20cita.">
             Agenda tu cita aquí.
           </a>
-          <br />
           2. Se te proporcionará toda la información relacionada con horarios,
           tarifas y políticas para la realización de las sesiones.
           <br />
           3. Una vez agendada tu cita, es importante que seas puntual y asistas
           el día y hora pautada.
           <br />
-          <br />
           <strong>⚠️ Importante tener en cuenta:</strong>
-          <br />
-          <br />
           - Solo se atiende con cita previa.
           <br />
           - El horario de atención es de lunes a viernes de 8 a.m. a 6 p.m. Hora
@@ -67,7 +75,7 @@ const ExtraCards = () => {
           <br />- Ante cualquier duda o inquietud sobre el proceso, consulta
           directamente conmigo a través del mismo medio.
         </p>
-      </motion.div>
+      </div>
     </div>
   );
 };
