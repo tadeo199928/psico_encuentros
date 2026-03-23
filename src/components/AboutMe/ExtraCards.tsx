@@ -13,7 +13,7 @@ const ExtraCards = () => {
           <p>
             Técnicas Psicoterapéuticas Para El Abordaje De La Depresión |{" "}
             <a
-              href="https://drive.google.com/file/d/1KxawyaIoVztEPV2DPIKBgLYMAXdiNvka/view?usp=sharing"
+              href="/certifications/Cert2.png"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -24,7 +24,7 @@ const ExtraCards = () => {
             Diplomado Internacional en Abordaje Psicológico de la Depresión y
             Ansiedad, Enfoque Cognitivo Conductual |{" "}
             <a
-              href="https://drive.google.com/file/d/1XrDkSG0DZ7e4qCMNwLgCpiOOIuGOJhB2/view?usp=sharing"
+              href="/certifications/Cert3.png"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -34,7 +34,91 @@ const ExtraCards = () => {
           <p>
             Seminario Internacional “Trastornos Ansiosos Depresivos” |{" "}
             <a
-              href="https://drive.google.com/file/d/18-W1sWvF-cNSMfAfWTOuzunO0VbEueAJ/view?usp=sharing"
+              href="/certifications/Cert4.png"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Mostrar Certificado
+            </a>
+          </p>
+          <p>
+            Psicoterapia Individual en el Paciente con Síndrome Ansioso |{" "}
+            <a
+              href="/certifications/Cert5.png"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Mostrar Certificado
+            </a>
+          </p>
+          <p>
+            Abordaje Integral de la Depresión y Ansiedad |{" "}
+            <a
+              href="/certifications/Cert6.png"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Mostrar Certificado
+            </a>
+          </p>
+          <p>
+            Psicofarmacología y Proceso de Psicoterapia, Intervención y
+            Psicoeducación |{" "}
+            <a
+              href="/certifications/Cert7.png"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Mostrar Certificado
+            </a>
+          </p>
+          <p>
+            Intervención en Conductas Autolesivas no Suicidas |{" "}
+            <a
+              href="/certifications/Cert8.png"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Mostrar Certificado
+            </a>
+          </p>
+          <p>
+            Máster título propio en terapias de tercera generación |{" "}
+            <a
+              href="/certifications/Cert9.png"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Mostrar Certificado
+            </a>
+          </p>
+          <p>
+            El Duelo En La Infancia |{" "}
+            <a
+              href="/certifications/Cert10.png"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Mostrar Certificado
+            </a>
+          </p>
+
+          <p>
+            Módulo en Mindfulness |{" "}
+            <a
+              href="/certifications/Cert11.png"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Mostrar Certificado
+            </a>
+          </p>
+
+          
+          <p>
+            Técnicas Emocionales|{" "}
+            <a
+              href="/certifications/Cert12.png"
               target="_blank"
               rel="noopener noreferrer"
             >
