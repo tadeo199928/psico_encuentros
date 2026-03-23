@@ -114,7 +114,6 @@ const ExtraCards = () => {
             </a>
           </p>
 
-          
           <p>
             Técnicas Emocionales|{" "}
             <a
