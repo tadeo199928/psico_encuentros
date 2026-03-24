@@ -33,7 +33,7 @@ const AboutSection = () => {
             aproximadamente 11 años que es el área clínica.
           </p>
 
-          {/* Párrafo 3 */}
+        
           <p>
             En ese mismo sentido trabajé en paralelo en colegios y en un
             ambulatorio, llevando a cabo mi consulta privada, cabe destacar que
