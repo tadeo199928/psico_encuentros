@@ -63,6 +63,7 @@ export const ContactForm: React.FC = () => {
       <form onSubmit={handleSubmit}>
         <input
           type="text"
+          name="name"
           placeholder="Tu Nombre Completo"
           value={formData.name}
           onChange={(e) => setFormData({ ...formData, name: e.target.value })}
@@ -70,12 +71,14 @@ export const ContactForm: React.FC = () => {
         />
         <input
           type="email"
+          name="email"
           placeholder="Tu Correo Electronico"
           value={formData.email}
           onChange={(e) => setFormData({ ...formData, email: e.target.value })}
           required
         />
         <textarea
+          name="message"
           placeholder="Escribeme un mensaje contandome un poco sobre ti y el problema que te gustaria tratar en consulta"
           value={formData.message}
           onChange={(e) =>
