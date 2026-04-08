@@ -49,6 +49,12 @@
   font-size: 1.2rem;
 }
 
+.footer-link-button {
+  border: none;
+  cursor: pointer;
+  font: inherit;
+}
+
 @media (max-width: 1070px) {
   .footer-content {
     flex-direction: column;
