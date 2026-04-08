@@ -39,8 +39,8 @@ export const ContactForm: React.FC = () => {
       };
 
       await emailjs.send(
-        "service_52w4lwc",
-        "template_tjzvixb",
+        "service_hobam4v",
+        "template_rdqryjv",
         templateParams,
         "r8Vxm-e9PZM_iZRB5"
       );
@@ -76,7 +76,7 @@ export const ContactForm: React.FC = () => {
           required
         />
         <textarea
-          placeholder="¡Escribeme un mensaje contandome de ti!"
+          placeholder="Escribeme un mensaje contandome un poco sobre ti y el problema que te gustaria tratar en consulta"
           value={formData.message}
           onChange={(e) =>
             setFormData({ ...formData, message: e.target.value })
