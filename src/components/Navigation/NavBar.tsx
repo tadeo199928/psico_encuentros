@@ -20,6 +20,8 @@ const Header: React.FC = () => {
         return "Publicaciones";
       case "/Contacto":
         return "Contacto";
+      case "/Certifications":
+        return "Certificados";
       default:
         return "Inicio";
     }

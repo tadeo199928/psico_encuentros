@@ -26,14 +26,14 @@ const Contacto = () => (
         plataforma="Instagram"
         Icon={FaInstagram}
         description="No te pierdas mis ultimos post en instagram"
-        btnRef="#instagram"
+        btnRef="https://www.instagram.com/psico_encuentros/"
         btnLabel="Instagram"
       />
       <ContactCard
         plataforma="Tiktok"
         Icon={FaTiktok}
         description="No te pierdas mis ultimos post en Tiktok"
-        btnRef="#tiktok"
+        btnRef="https://www.tiktok.com/@psico_encuentros"
         btnLabel="Tiktok"
       />
     </div>

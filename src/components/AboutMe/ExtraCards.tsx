@@ -1,4 +1,6 @@
 import "./SobreMi.css";
+import { Link } from "react-router-dom";
+import { certifications } from "./CertificationsData";
 
 const ExtraCards = () => {
   return (
@@ -6,124 +8,14 @@ const ExtraCards = () => {
       <div className="info-card purple">
         <h3 className="info-card-title">📚 Formación en el Area</h3>
         <div className="info-card-text">
-          <p>
-            Licenciado en Psicología - Universidad Central de Venezuela (UCV) |{" "}
-            <a href="#/">Mostrar Certificado</a>
-          </p>
-          <p>
-            Técnicas Psicoterapéuticas Para El Abordaje De La Depresión |{" "}
-            <a
-              href="/certifications/Cert2.png"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Mostrar Certificado
-            </a>
-          </p>
-          <p>
-            Diplomado Internacional en Abordaje Psicológico de la Depresión y
-            Ansiedad, Enfoque Cognitivo Conductual |{" "}
-            <a
-              href="/certifications/Cert3.png"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Mostrar Certificado
-            </a>
-          </p>
-          <p>
-            Seminario Internacional “Trastornos Ansiosos Depresivos” |{" "}
-            <a
-              href="/certifications/Cert4.png"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Mostrar Certificado
-            </a>
-          </p>
-          <p>
-            Psicoterapia Individual en el Paciente con Síndrome Ansioso |{" "}
-            <a
-              href="/certifications/Cert5.png"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Mostrar Certificado
-            </a>
-          </p>
-          <p>
-            Abordaje Integral de la Depresión y Ansiedad |{" "}
-            <a
-              href="/certifications/Cert6.png"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Mostrar Certificado
-            </a>
-          </p>
-          <p>
-            Psicofarmacología y Proceso de Psicoterapia, Intervención y
-            Psicoeducación |{" "}
-            <a
-              href="/certifications/Cert7.png"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Mostrar Certificado
-            </a>
-          </p>
-          <p>
-            Intervención en Conductas Autolesivas no Suicidas |{" "}
-            <a
-              href="/certifications/Cert8.png"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Mostrar Certificado
-            </a>
-          </p>
-          <p>
-            Máster título propio en terapias de tercera generación |{" "}
-            <a
-              href="/certifications/Cert9.png"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Mostrar Certificado
-            </a>
-          </p>
-          <p>
-            El Duelo En La Infancia |{" "}
-            <a
-              href="/certifications/Cert10.png"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Mostrar Certificado
-            </a>
-          </p>
-
-          <p>
-            Módulo en Mindfulness |{" "}
-            <a
-              href="/certifications/Cert11.png"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Mostrar Certificado
-            </a>
-          </p>
-
-          <p>
-            Técnicas Emocionales|{" "}
-            <a
-              href="/certifications/Cert12.png"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Mostrar Certificado
-            </a>
-          </p>
+          <ul className="certification-preview-list">
+            {certifications.map((certification) => (
+              <li key={certification.title}>{certification.title}</li>
+            ))}
+          </ul>
+          <Link to="/Certifications" className="certifications-link">
+            <span>Mostrar Certificados </span>
+          </Link>
         </div>
       </div>
       <div className="info-card">

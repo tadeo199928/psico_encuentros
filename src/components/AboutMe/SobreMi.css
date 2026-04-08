@@ -121,6 +121,38 @@
   color: #d46d6c;
 }
 
+.certification-preview-list {
+  margin: 0;
+  padding-left: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.certification-preview-list li {
+  line-height: 1.5;
+}
+
+.certifications-link {
+  display: inline-block;
+  align-self: flex-start;
+  margin-top: 0.5rem;
+  background: #d46d6c;
+  color: #fcf8f0;
+  padding: 0.55rem 1rem;
+  border-radius: 10px;
+  font-weight: 700;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.certifications-link span {
+  color: #ffffff;
+}
+
+.certifications-link:hover {
+  background: #d24b49;
+  transform: translateY(-1px);
+}
+
 @media (max-width: 768px) {
   .about-title {
     font-size: 2rem;

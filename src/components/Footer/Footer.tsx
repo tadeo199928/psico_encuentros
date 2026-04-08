@@ -54,7 +54,7 @@ const Footer = () => {
             <span>Whatsapp</span>
           </a>
           <a
-            href="https://www.tiktok.com/@psico_encuentros?is_from_webapp=1&sender_device=pc"
+            href="https://www.tiktok.com/@psico_encuentros"
             target="_blank"
             rel="Tiktok"
             className="footer-link"
